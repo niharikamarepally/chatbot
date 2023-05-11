@@ -1,0 +1,106 @@
+{"intents": [
+  {"tag": "greetings",
+  "patterns": ["hello","hey","hi","good day","Greetings","what's up?","how is it going?"],
+  "responses": ["Hello!","Hey!","What can I do for you?"]
+  },
+
+  {"tag": "name",
+  "patterns": ["what is your name","name","what's your name","who are you","what should I call you"],
+  "responses": ["You can call me Ribot","I'm Ribot","I'm Ribot your virtual assistant"]
+  },
+
+  {"tag": "courses",
+  "patterns": ["what courses are available", "how many courses are there in this college"],
+  "responses": ["For Bachelors in COMPUTER SCIENCE AND ENGINEERING we have been offering the followings:\n1. CSE [CS] CYBER SECURITY \n2. CSE [DS] DATA SCIENCE\n3. CSE [AL ML] ARTIFICIAL INTILLEGIENCE AND MACHINE LEARNING\n4.IT\n And other branches like 5.AERONAUTICAL ENGINEERING\n6.EEE\n7.ECE\n8.CIVIL"]
+  },
+
+   {"tag": "courseDuration",
+  "patterns": ["how long will be CSE or IT course", "how long will it take to complete CSE or CSE course"],
+  "responses": ["The course period is off 4 years."]
+  },
+
+   {"tag": "Location",
+  "patterns": ["location","where is it located","what is the location of the college"],
+  "responses": ["Institute of Aeronautical Engineering college is located at Dundigal, Hyderabad."]
+  },
+
+  {"tag": "semesters",
+  "patterns": ["how many semesters are there in a year","how many semesters one should study in a year"],
+  "responses": ["There are two semesters in a year."]
+  },
+
+  {"tag": "semDuration",
+  "patterns": ["how many months are there in a semester","how long will be a single semester"],
+  "responses": ["The single semester will be around 6 months."]
+  },
+
+  {"tag": "studentRequirements",
+  "patterns": ["what are the student requirements for admission","entry requirements","admission requirements"],
+  "responses": ["Student need to clear the SSC and intermediate with the certificates. Student need to attend the entrance test for the convenor seat eligibility."]
+  },
+
+  {"tag": "classes",
+  "patterns": ["how many classes will be there in a day","how long are the classes?"],
+  "responses": ["There will be 7 classes per day including extra cirricculum activities and sports and duration of each class will be off 50 minuates. "]
+  },
+
+  {"tag": "teachingStyle",
+  "patterns": ["what is the teaching style of this college?","Is the teaching pattern different from other college?","what is the teaching format?"],
+  "responses": ["Our college has different teaching style like we provide system learning and provide with clear lecture notes and also provides the E-learning teaching."]
+  },
+
+  {"tag": "exams",
+  "patterns": ["what are the exams like?","What is the exam pattern"],
+  "responses": ["There are assignments which carry more weight than your written exams. The assignments have deadlines which you should not exceed if you want to get better marks."]
+  },
+
+  {"tag": "hours",
+  "patterns": ["what are your hours","when are you guys open","what your hours of operation"],
+  "responses": ["You can message us here at any hours. But our college premises will be open from 7:00 am to 5:00 pm only."]
+  },
+
+  {"tag": "funActivities",
+  "patterns": ["will there be any extra curriculum activities?","does the college conducts any fun program"],
+  "responses": ["Yes, Of course. Our college not only provides excellent education but also encourage students to take part in different curriculum activities. The college conducts yearly programs like Sports meet, Carnival, Holi festival, and Christmas. \n Also our college has basketball court, badminton court, table tennis, chess, carrom board and many more refreshment zones."]
+  },
+
+  {"tag": "facilities",
+  "patterns": ["what facilities are provided by the college?","what are the facilities of college for students", "what are the college infrastructures "],
+  "responses": ["With excellent education facilities, Our College provides various other facilities like 24 hours internet, library, classes with AC, discusson room, canteen, parking space, and student service for any students queries."]
+  },
+
+  {"tag": "fee",
+  "patterns": ["how much is the college fee","what is the fee structure"],
+  "responses": ["The college fee per annum is off rs.90000.\n Admission fee of 10000.\n Semister exam fee will be 1800."]
+  },
+
+  {"tag": "goodbye",
+  "patterns": ["cya","See you later","Goodbye","I am leaving","Have a Good Day","bye","see ya"],
+  "responses": ["glad to See you again :(","Have a good day","Goodbye"]
+  },
+
+  {"tag": "invalid",
+    "patterns": ["","gvsd","asbhk"],
+    "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
+  },
+
+  {"tag": "thanks",
+    "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+    "responses": ["Happy to help!", "Any time!", "My pleasure"]
+  },
+  {"tag": "placements",
+  "patterns":  ["what is the highest package in your college"],
+  "responses": ["the highest package is for now is - 17 LPA"]
+  },
+  {"tag": "extra Activities",
+  "patterns": ["what are co-cirricullum activities will be provided","sports","cultural events"],
+  "responses": ["We provide different clubs like \n1.Dance club\n2.Music club\n3.Technical Association clubs\n4.Arts club\n5.social welfare clubs\ngames and sports club.\n We encourage our students with all different activities in our college."]
+  },
+  {"tag": "shuffling",
+  "patterns": ["is there possibility for changing the branch","chance of shuffling in courses","possibility for selecting extra courses"],
+  "responses": ["Yes, you can change the branch if needed after allocating the branch, only within a period of time","Yes, we offer multiple courses to enroll"]
+  },
+  {"tag": "companies",
+  "patterns: ["which companies visits the college","how many companies have been coming"],
+  "responses": ["Companies like Accenture , Cognizent , IBM , Virtusa , TCS , Wipro , Deliotte , DBS , Microsoft , Amazon\nlike nearly 170 companies will be hiring the students from our college for every year"]}
+]}
